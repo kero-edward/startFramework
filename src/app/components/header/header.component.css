@@ -1,0 +1,12 @@
+nav.navbar {
+  background-color: #2C3E50;
+}
+
+.active {
+  background-color: #3498db;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
