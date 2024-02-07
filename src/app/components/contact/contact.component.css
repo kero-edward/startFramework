@@ -1,0 +1,17 @@
+section {
+  margin-top: 106px;
+}
+
+.title {
+  color: #2C3E50;
+}
+
+.line {
+  width: 100px;
+  height: 5px;
+  background-color: #2C3E50;
+}
+
+form button {
+  background-color: #19B193;
+}
