@@ -1,0 +1,17 @@
+footer .info {
+  background-color: #2C3E50;
+}
+
+footer .info ul li {
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+footer .copyright {
+  background-color: #1a252f;
+}
