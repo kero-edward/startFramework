@@ -10,7 +10,6 @@ export class HeaderComponent {
 
   @HostListener('window:scroll', ['$event'])
   onScroll(event: any) {
-    console.log('scrollY: ', scrollY);
     if (scrollY >= 50) {
       this.isScrolling = true;
     } else {
