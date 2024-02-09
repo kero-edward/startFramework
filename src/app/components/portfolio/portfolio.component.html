@@ -1,1 +1,25 @@
-<p>portfolio works!</p>
+<section class="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-3" *ngFor="let portfolio of myPortfolio">
+        <div class="myImage overflow-hidden" data-bs-toggle="modal"
+          [attr.data-bs-target]="'#exampleModal'+portfolio.id">
+          <img [src]="portfolio.image" [alt]="portfolio.description" loading="lazy" class="img-fluid rounded-3 h-100"
+            width="100%" height="100%">
+          <div class="layer rounded-3 text-white d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade myModel" [id]="'exampleModal'+portfolio.id" tabindex="-1"
+          aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog d-flex justify-content-center align-items-center" style="height: 100vh !important;">
+            <img [src]="portfolio.image" [alt]="portfolio.description" loading="lazy" class="img-fluid rounded-3"
+              width="100%" height="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

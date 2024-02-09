@@ -1,3 +1,4 @@
+import { Portfolio } from './../../shared/portfolio';
 import { Component } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
@@ -19,4 +20,37 @@ export class PortfolioComponent {
     ]);
     this.title.setTitle('Start Framework - Portfolio');
   }
+
+  myPortfolio: Portfolio[] = [
+    {
+      id: 1,
+      image: './assets/images/portfolio1.png',
+      description: 'portfolio image description',
+    },
+    {
+      id: 2,
+      image: './assets/images/portfolio2.png',
+      description: 'portfolio image description',
+    },
+    {
+      id: 3,
+      image: './assets/images/portfolio3.png',
+      description: 'portfolio image description',
+    },
+    {
+      id: 4,
+      image: './assets/images/portfolio1.png',
+      description: 'portfolio image description',
+    },
+    {
+      id: 5,
+      image: './assets/images/portfolio2.png',
+      description: 'portfolio image description',
+    },
+    {
+      id: 6,
+      image: './assets/images/portfolio3.png',
+      description: 'portfolio image description',
+    },
+  ];
 }
